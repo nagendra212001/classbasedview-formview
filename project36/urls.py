@@ -20,4 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('cbv_form/',cbv_form.as_view(),name='cbv_form'),
     path('cbv_modelform/',cbv_modelform.as_view(),name='cbv_modelform'),
+    path('Student_list/',Student_list.as_view(),name='Student_list'),
 ]
